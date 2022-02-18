@@ -1,0 +1,121 @@
+body {
+  font-family: "Lobster Two", cursive;
+  width: 100%;
+  // overflow: auto;
+  height: 100vh;
+  background-image: url("../Images/topbg.jpg");
+  position: absolute;
+}
+.container-slider {
+  // width: 100%;
+  // height: 100vh;
+// display: flex;
+// justify-content: center;
+  max-width: 700px;
+  height: 500px;
+  margin-top: 200px;
+  margin-left: 250px;
+  // position: relative;
+  /* overflow: hidden; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  } */
+}
+@media screen and (max-width: 700px) {
+  .container-slider {
+    margin: 100px 10px 0;
+  }
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+}
+.adv {
+  color: white;
+  padding-left: 200px;
+  margin-top: 100px;
+  font-size: 32px;
+}
+.slide img {
+  width: 500px;
+  height: 100%;
+  // object-fit: cover;
+  margin-left: 133px;
+}
+.active-anim {
+  opacity: 1;
+}
+
+.btn-slide {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  border: 1px solid rgba(34, 34, 34, 0.287);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-slide img {
+ 
+  background: #8e3a10;
+  width: 59px;
+  height: 58px;
+  border-radius: 100%;
+  color: white;
+}
+
+  .prev {
+   
+    left: 200px;
+    transform: translateY(400%);
+  }
+  .next {
+    right: 200px;
+    transform: translateY(400%);
+  }
+
+
+.container-dots {
+  display: flex;
+  margin: 483px 0px 0px 341px;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #f1f1f1;
+  margin: 0 5px;
+  background: #f1f1f1;
+}
+.food_stage {
+  margin-top: 55px;
+  margin-left: 202px;
+  margin-top: 63px;
+  color: white;
+}
+.dot.active {
+  background: rgb(32, 32, 32);
+}
+.orderbutton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 20px 224px 13px 175px;
+  cursor: pointer;
+  float: right;
+  font-family: "Lobster Two", cursive;
+}
+.button{
+  margin-top: 50px;
+}

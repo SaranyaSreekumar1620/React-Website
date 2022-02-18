@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  font-family: "Lobster Two", cursive;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Lobster Two", cursive;
+  width: 100%;
+  overflow: auto;
+  background-color: black;
+  // background-image: url("/Images/topbg.png");
+  // float: left;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+.mainmenu {
+  margin: 30px;
+}
+.heading {
+  margin: 250px;
+  padding: 50px;
+  //font-size: large;
+}
+.head-menu {
+  img {
+    width: 160px;
+    // float: left;
+    margin: 0px 0px 0px 66px;
+  }
+}
+
+.head-contact {
+  display: flex;
+  justify-content: right;
+  font-size: 16px;
+  .colorgreen {
+    color: #71a616 !important;
+    a:hover {
+      color: rgb(214, 214, 214);
+    }
+  }
+}
+nav {
+  overflow: hidden;
+  background-color: black;
+  top: 0;
+  width: 100%;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    li {
+      display: flex;
+      a {
+        color: #f2f2f2;
+        text-decoration: none;
+        padding: 14px;
+        font-size: 16px;
+        
+          &:hover {
+            background-color: #111;
+          
+        }
+      }
+    }
+  }
+}
+.colorgreen1 {
+  color: #71a616;
+  margin-left: 1118px;
+  font-size: 18px;
+
+}
